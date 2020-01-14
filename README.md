@@ -4,4 +4,20 @@
  ---- | ----- | ------  
  jbw_color  | 旋转小球基本颜色 | Color.GRAY 
  jbw_loading_view_size  | 整个loadingview大小 | 50dp
- jbw_duration  | 旋转一圈所用时间 | 1
+ jbw_duration  | 旋转一圈所用时间 | 1  
+ 
+
+```
+使用示例:
+
+<com.jbw.YSLLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:jbw_duration="1"
+        app:jbw_loading_view_size="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
