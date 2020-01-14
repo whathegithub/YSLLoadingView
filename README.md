@@ -15,9 +15,5 @@
         android:layout_height="wrap_content"
         app:jbw_duration="1"
         app:jbw_loading_view_size="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         />
 
